@@ -21,6 +21,7 @@
   cursor: default;
   display: flex;
   align-items: center;
+  background: green;
 }
 .midPane_card:hover {
   position: relative;

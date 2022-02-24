@@ -5,6 +5,8 @@ import { FILE, FOLDER } from "../../utils/constants";
 import FileIcon from "../../assets/img/file.svg";
 // import FolderIcon from "../../assets/img/folder.png";
 import FolderIcon from "../../assets/img/folder-icon.svg";
+import FolderIconBig from "../../assets/img/folder-big.svg";
+import FileIconBig from "../../assets/img/file-big.svg"
 import axios from "axios";
 import { Container, Logo, Img, Name } from "./styles";
 import Menu from "../Menu";
@@ -186,7 +188,7 @@ class Icon extends Component {
       <Container ref={this.nodeRef} onClick={() => this.enterFolder()}>
         <Logo onClick={() => this.enterFolder()}>
           <Img src={entry.type == FILE ? FileIcon : FolderIcon} />
-          {entry.type == FILE ? <span>{`.${ext}`}</span> : ""}
+          {/* {entry.type == FILE ? <span>{`.${ext}`}</span> : ""} */}
         </Logo>
         <Name>{entry.name}</Name>
         {this.state.visible && (

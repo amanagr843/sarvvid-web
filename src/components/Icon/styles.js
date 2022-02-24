@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 30%;
+  width: 28%;
   min-width: 15%;
   max-width: 30%;
   color: #005288;
@@ -12,10 +12,11 @@ export const Container = styled.div`
   border-radius: 10px;
   margin-bottom: 2.5%;
   display:flex;
+  align-items:center;
   cursor: default;
   &:hover {
     position: relative;
-    box-shadow: 0 0 20px rgb(0, 195, 255);
+    outline: 2px solid #19b0f7;
   }
 `;
 // height: 117px;
@@ -37,23 +38,11 @@ export const Container = styled.div`
 // }
 
 export const Logo = styled.div`
-  position: relative;
-  & span {
-    position: absolute;
-    bottom: 10px;
-    left: 4px;
-    width: 96%;
-    font-weight: bold;
-    color: white;
-    font-size: 12px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-  }
+  
 `;
 
 export const Img = styled.img`
-  width: 65%;
+  
 `;
 
 export const Name = styled.div`

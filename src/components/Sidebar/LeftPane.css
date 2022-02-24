@@ -10,6 +10,7 @@
   cursor: default;
   /* transition-duration: 0.3s; */
   /* overflow: hidden; */
+  border-right: 2px solid rgb(231, 231, 231);
 }
 
 .leftPane {

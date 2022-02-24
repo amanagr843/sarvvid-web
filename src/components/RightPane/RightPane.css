@@ -13,6 +13,7 @@
   padding-bottom: 1%;
   cursor: default;
   overflow: visible;
+  border-left: 2px solid  rgb(231, 231, 231);
 }
 .rightPane_user {
   display: flex;
