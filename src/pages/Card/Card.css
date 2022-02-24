@@ -1,0 +1,28 @@
+.midPane_cards {
+  width: 100%;
+  background: rgb(255, 255, 255);
+  /* height: 100%; */
+  display: flex;
+  flex-direction: row;
+  /* max-width: 57%; */
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+.midPane_card {
+  width: 10%;
+  min-width: 10%;
+  max-width: 10%;
+  color: #005288;
+  padding-bottom: 1%;
+  background-color: #b2d6f8;
+  margin-left: 1%;
+  border-radius: 10px;
+  margin-bottom: 2.5%;
+  cursor: default;
+  display: flex;
+  align-items: center;
+}
+.midPane_card:hover {
+  position: relative;
+  box-shadow: 0 0 20px rgb(0, 195, 255);
+}
